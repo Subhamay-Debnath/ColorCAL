@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body
+{
+   background: #000000bb;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.subContainer
+{
+    width: 20rem;
+    height: 32rem;
+    min-width: 15rem;
+    border-radius: 1rem;
+    background-color: #22252d;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px #000000;
+}
+.showResultWindow
+{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    height: 10rem;
+}
+input
+{
+    width: 18rem;
+    height: 4rem;
+    text-align: end;
+    padding: 1.5rem 1rem .2rem 1rem ;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background:transparent;
+    color: #ffff;
+    font-size: 1.5rem;
+}
+::placeholder
+{
+    color:rgb(7, 254, 250);
+}
+.numpad
+{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem ;
+    width: 100%;
+    height: 22rem;
+    background-color: #292d36;
+}
+.row
+{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+button
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #3b4152;
+    box-shadow: 4px 4px 10px #0000005d;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fe5959;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+}
+button:hover
+{
+    box-shadow: none;
+    background-color: #31364800;
+    border: 2px solid #3b4152;
+}
+.largeButton
+{
+    width: 12rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: rgb(0, 255, 0);
+}
+.resetButton
+{
+    background-color: #fe0303;
+    color: #010101;
+    transition: all .2s ease;
+}
+.resetButton:hover
+{
+    background-color: #b10202;
+    color: #ffffff;
+    border:transparent;
+}
+.lightblueColor
+{
+    background-color: #01b7ff;
+    color: #000000;
+    transition: all .2s ease;
+}
+.lightblueColor:hover
+{
+    background-color: #028bc2;
+    color: #ffffff;
+    border: transparent;
+}
+.aquaColor
+{
+    color: #00d9ff;
+}
+
+#red
+{
+    background-color: #ff3c00;
+    color: #000000;
+    transition: all .2s ease;
+}
+#red:hover
+{
+    background-color: #a82001;
+    color: #ffffff;
+    border: transparent;
+}
